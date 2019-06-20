@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Signup Form with HTML5 & CSS3 Validation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Families -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Global Stylesheet -->
+    <link rel="stylesheet" href="/build/css/main.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Content Begin -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="wrapper">
+                    <div class="wrapper-inner">
+                        <div class="wrapper-lt">
+                            <div class="p-5">
+                                <img src="/build/img/base/logo@2x.png" width="80" alt="">
+                            </div>
+                            <div class="px-5 mb-4">
+                                <div class="mb-6">
+                                    <h5 class="text-secondary">Are you hungry?</h5>
+                                    <p class="font-md text-gray-200">So let's grab some food..</p>
+                                </div>
+                                <form action="" class="mb-4">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-text">
+                                                <input type="text" class="form-control" placeholder="What's your name?" required>
+                                                <label for=""> What's your name?</label>
+                                                <div class="error error-danger">Please enter a valid email address!</div>
+                                            </div>
+                                            <div class="input-icon">
+                                                <svg class="icon icon-user">
+                                                    <use xlink:href="/build/icon/sprite.svg#icon-user"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-text">
+                                                <input type="email" class="form-control"
+                                                    placeholder="Grab special offers!" required>
+                                                <label for="">Grab special offers!</label>
+                                                <div class="error error-danger">Please enter a valid email address!</div>
+                                            </div>
+                                            <div class="input-icon">
+                                                <svg class="icon icon-mail">
+                                                    <use xlink:href="/build/icon/sprite.svg#icon-mail"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-text">
+                                                <input type="tel" class="form-control" placeholder="Get in touch" required>
+                                                <label for="">Get in touch</label>
+                                                <div class="error error-danger">We will need your number!</div>
+                                            </div>
+                                            <div class="input-icon">
+                                                <svg class="icon icon-phone">
+                                                    <use xlink:href="/build/icon/sprite.svg#icon-phone"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-text">
+                                                <input type="password" class="form-control"
+                                                    placeholder="Keep your food locked!" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required>
+                                                <label for=""> Keep your food locked!</label>
+                                                <div class="error error-danger">Your password must be at least 6 characters as well as contain at least one uppercase, one lowercase, and one number.</div>
+                                            </div>
+                                            <div class="input-icon">
+                                                <svg class="icon icon-lock">
+                                                    <use xlink:href="/build/icon/sprite.svg#icon-lock"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-block">Let's Eat!</button>
+                                </form>
+                                <p>Already have an account? <a class="btn btn-text is-primary" href="#">Sign In</a></p>
+                            </div>
+                            <div class="pb-5 px-5">
+                                <p class="text-primary font-lg bold">Enjoy the best food today!</p>
+                                <p>&#x24B8; copyright 2019. All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-rt">
+                            <img src="/build/img/brooke-lark-158017-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content End -->
+</body>
+
+</html>
