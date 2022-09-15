@@ -1,10 +1,10 @@
 
 # Signup Form with HTML5 & CSS3 Validation
 
-A Beautiful Signup Form which uses the advanced features of HTML5 and CSS3 to validate the entered data. Click here to see the [demo](https://distracted-lumiere-86e71f.netlify.com/).
+A Beautiful Signup Form which uses the advanced features of HTML5 and CSS3 to validate the entered data. Click here to see the [demo](https://idyllic-sundae-8cc424.netlify.app/).
 
 ![
-](https://kodepundit.com/wp-content/uploads/2019/06/beautiful-hotel-sign-up-form-with-css-form-validation.png)
+](https://res.cloudinary.com/kode-pundit/image/upload/v1663241161/beautiful_hotel_sign_up_form_with_css_form_validation_d011c2c95b.png)
 
 ## Resources
 
