@@ -3569,8 +3569,8 @@ p:not(:last-child) {
     -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    -webkit-animation: fadeInUp 1s 0.5s forwards;
-    animation: fadeInUp 1s 0.5s forwards;
+    -webkit-animation: fadeInUp 1s forwards;
+    animation: fadeInUp 1s forwards;
 }
 
 .wrapper-inner {
