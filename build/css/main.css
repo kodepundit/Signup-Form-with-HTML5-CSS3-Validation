@@ -3571,6 +3571,7 @@ p:not(:last-child) {
     opacity: 0;
     -webkit-animation: fadeInUp 1s forwards;
     animation: fadeInUp 1s forwards;
+    backface-visibility: hidden;
 }
 
 .wrapper-inner {
